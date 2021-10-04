@@ -3,6 +3,7 @@
 .navbar{
    position: fixed;
     width: 100%;
+    z-index: 4;
 }
 .nav-link{
     font-weight: bold;
@@ -14,7 +15,6 @@
     background-image: url("../img/photo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
     }
 
     /* Home */
@@ -29,7 +29,7 @@
         animation-duration: 2s;
     }
    
-/* All sections*/
+/* Global */
 span{
     color: red;
 }
@@ -44,12 +44,6 @@ span{
 }
 
     /* About me */
-/* .section-2 h2, h6{
-    text-align: center;
-}
-.section-2 h2{
-    padding-top: 150px;
-} */
 .pic{
     width: 100%;
     height: 400px;
@@ -64,15 +58,6 @@ span{
 }
 
 /* my services */
-/* .section-3 h2,p{
-    text-align: center;
-}
-.section-3 h2{
-    padding-top: 180px;
-}
-.section-3{
-    padding-bottom: 50px;
-} */
 .box i{
     color: crimson;
     font-size: 40px;
@@ -103,17 +88,6 @@ span{
 
 
   /* my skilles */
-
-/* .section-4 h2,p{
-    text-align: center;
-}
-.section-4 h2{
-    padding-top: 180px;
-}
-
-.section-4{
-    padding-bottom: 50px;
-} */
 .main-4{
     margin-bottom: 30px;
 }
@@ -127,16 +101,6 @@ span{
 }
 
 /* my projects */
-
-/* .section-5 h2,h6{
-    text-align: center;
-}
-.section-5 h2{
-    padding-top: 180px;
-}
-.section-5{
-    padding-bottom: 50px;
-} */
 .card-2{
     height: 100px;
     margin-bottom: 200px;
@@ -154,15 +118,6 @@ span{
 }
 
 /* Testimonials */
-/* .section-6 h2,p{
-    text-align: center;
-}
-.section-6 h2{
-    padding-top: 180px;
-}
-.section-6{
-    padding-bottom: 50px;
-} */
 .box img{
     border-radius: 50%;
     border: 3px solid crimson;
@@ -182,7 +137,6 @@ span{
     background-color: rgb(119, 21, 40);
   }
 /* Contact */
-
 .info{
     display: flex;
     align-items: center;
@@ -201,15 +155,6 @@ span{
 .sub-title{
     color: #333;
 }
-/* .section-7 h2, h6{
-    text-align: center;
-}
-.section-7 h2 {
-    padding-top: 180px;
-}
-.section-7{
-    padding-bottom: 50px;
-} */
 .conact-1 p{
     text-align: start;
     font-size: 20px;
@@ -220,7 +165,6 @@ span{
 }
 
 /* footer */
-
 footer{
 height: 100px;
 background-color: black;
