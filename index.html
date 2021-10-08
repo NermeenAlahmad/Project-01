@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,18 +14,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Project-01-Nermeen</title>
-</head>
-
-<body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img src="img/logo.png" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    </head>
+     <body>
+         <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+              <div class="container">
+                 <a class="navbar-brand" href="#"> <img src="img/logo.png" alt=""> </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link navba" aria-current="page" href="#">Home</a>
@@ -56,7 +53,6 @@
     </nav>
 
     <!-- Home -->
-
     <section class="home">
         <div class="home-content">
             <div class="text-1"><h1>Hello! I'm <span class="home-span animate__animate animate__lightSpeedInLeft">Nemeen</span></h1></div>
@@ -68,7 +64,7 @@
     <!-- About me -->
     <div class="main-2" id="about">
         <div class="all-section">
-            <h2> About me </h2>
+            <h2 class="about-h2"> About me </h2>
             <h6> --- <span> who i am </span> --- </h6>
         </div>
         <div class="container">
@@ -77,12 +73,11 @@
                     <img class="pic" src="img/ner.png" alt="">
                 </div>
 
-                <div class="about-1 col-lg-8 ">
+                <div class="about-1 col-lg-8">
                     <h2> I'm Nermeen and i'm a Fullstack devloper </h2>
                     <p>Self-motivated and ambitious full-stack developer and web designer. I have a computer science <br> degree and I am currently a trainee at Orange Coding Academy, where I am develop my knowledge. 
                     </p>
-                    <a href="file/Nermeen Alahmad.pdf" target="blank"><button type="button" class="btn btn-danger">Download CV</button> </a>
-                    
+                    <a href="file/Nermeen Alahmad.pdf" target="blank"><button type="button" class="about-btn btn btn-danger">Download CV</button> </a>
                 </div>
             </div>
         </div>
@@ -152,25 +147,29 @@
                     <span class="skill-icon"><i class="fab fa-html5"></i></span>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                            role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0"
+                            role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
                     <span class="skill-icon"><i class="fab fa-css3-alt"></i></span>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped bg-striped progress-bar-animated"
-                            role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+                            role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
                     <span class="skill-icon"><i class="fab fa-bootstrap"></i></span>
-                    <div class="progress">
+                    <div class="progress skill-progress">
                         <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                            role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100"></div>
+                            role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100"></div>  
                     </div>
+                    <span class="skill-span"> Soft skills</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 88%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
                 </div>
             </div>
         </div>
-</div>
+     </div>
         <!-- My projects -->
         <div class="main-5" id="projects">
             <div class="all-section">
@@ -208,40 +207,40 @@
                     </div>
                 </div>
             </div>
+
         <!-- Testimonials -->
         <div class="main-6" id="testimonials">
             <div class="all-section">
                 <h2>My Testimonials</h2>
                 <h6> --- <span> what about me </span> --- </h6>
             </div>
-            <div class="container">
+             <div class="container">
                 <div class="row ">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4">
                         <div class="card-3">
                             <div class="box">
-                                <img src="img/avatar2.jpg" alt="">
-                                <div class="text">Matilda</div>
+                                <img src="img/Matidla.jpg" alt="">
+                                <h3>Matilda</h3>
+                                <p>Nermeen is a clear communicator with the tenacity and confidence to 
+                                really dig in to tricky design needed to produce excellent work.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-3 card-down" >
+                            <div class="box">
+                                <img src="img/Leon.jpg" alt="">
+                                <h3>Leon</h3>
                                 <p>Nermeen is a clear communicator with the tenacity and confidence to 
                                     really dig in to tricky design needed to produce excellent work.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4  col-md-6">
-                        <div class="card-3 ">
-                            <div class="box">
-                                <img src="img/avtar1.jpg" alt="">
-                                <div class="text">Leon</div>
-                                <p>Nermeen is a clear communicator with the tenacity and confidence to 
-                                    really dig in to tricky design needed to produce excellent work.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4  col-md-12">
+                    <div class="col-lg-4">
                         <div class="card-3">
                             <div class="box">
-                                <img src="img/avatar3.jpg" alt="">
-                                <div class="text">Sarah</div>
+                                <img src="img/Sarah.jpg" alt="">
+                                <h3>Sarah</h3>
                                 <p>Nermeen is a clear communicator with the tenacity and confidence to 
                                     really dig in to tricky design needed to produce excellent work.</p>
                             </div>
@@ -258,7 +257,6 @@
                 </div>
                 <div class="container">
                     <div class="row">
-
                         <div class="conact-1 col-lg-6">
                             <h2>Get in Touch</h2>
                             <p><span class="contact-p">"It's not just about</span> being better. It's about being different. <span class="contact-p">You need to give people a</span> reason to choose your business!"</p>
@@ -270,7 +268,6 @@
                                         <div class="sub-title">Nermeen Alahmad</div>
                                     </div>
                                 </div>
-
                                 <div class="info">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <div class="info-1">
@@ -278,7 +275,6 @@
                                         <div class="sub-title">Amman-Jordan</div>
                                     </div>
                                 </div>
-
                                 <div class="info">
                                     <i class="fas fa-envelope"></i>
                                     <div class="info-1">
@@ -286,13 +282,9 @@
                                         <div class="sub-title">nermeen.n.alahmad@gmail.com</div>
                                     </div>
                                 </div>
-
-
-
                             </div>
-
                         </div>
-                        <div class="col-lg-6">
+                    <div class="col-lg-6">
                             <form class="contact-1 row g-3">
                                 <h2>Message me</h2>
                                 <div class="col-md-6">
@@ -318,27 +310,23 @@
                                 </div>
                             </form>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
            
-<footer>
-    <div class="footer-content">
-            <div class="icon">
+            <!-- footer -->
+        <footer>
+          <div class="footer-content">
+              <div class="icon">
                 <a href="https://www.facebook.com/nermeen.alahmad.9" target="blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://instagram.com/nermeen_alahmad?utm_medium=copy_link" target="blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/nermeen-alahmad-a87272220/" target="blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/NermeenAlahmad" target="blank"><i class="fab fa-github"></i></a>
-
             </div>
             <h6>©️ 2021 <span class="footer-span">Nermeen Alahmad</span> , All Rights Reserved </h6>
-    </div>
-</footer>
-
-
-<script src="bootstrap-5.1.1-dist/js/bootstrap.js"></script>
-</body>
-</html>
+              </div>
+           </footer>
+           
+         <script src="bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+     </body>
+  </html>
